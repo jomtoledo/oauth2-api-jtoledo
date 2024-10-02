@@ -61,7 +61,16 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
-
+        
+        'test-mysql' => [
+            'driver' => 'mysql',
+            'host' => env('TEST_DB_HOST', '127.0.0.1'),
+            'port' => env('TEST_DB_PORT', '3306'),
+            'database' => env('TEST_DB_DATABASE', 'test_api_db'),
+            'username' => env('TEST_DB_USERNAME', 'root'),
+            'password' => env('TEST_DB_PASSWORD', '')
+        ],
+        
         'mariadb' => [
             'driver' => 'mariadb',
             'url' => env('DB_URL'),
