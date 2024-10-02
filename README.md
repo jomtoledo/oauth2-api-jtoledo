@@ -1,4 +1,4 @@
-This project is a Laravel application that implements API authentication using Laravel Passport. It provides endpoints for user registration, login, and logout.
+This project is a Laravel application that implements API authentication using Laravel Passport.
 
 ## Features
 
