@@ -5,7 +5,7 @@ This project is a Laravel application that implements API authentication using L
 - User registration
 - User login with token-based authentication
 - User logout
-- Secure Customers listing page
+- Secure Customers management page
 - Secure Customers CRUD API endpoints using Laravel Passport
 
 ## Requirements
