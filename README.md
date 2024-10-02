@@ -44,6 +44,3 @@ This project is a Laravel application that implements API authentication using L
 6. Start the server
     ```bash
     php artisan serve
-8. 
-9. 
-10. 
